@@ -1,0 +1,592 @@
+<link rel="stylesheet" type="text/css" href="https://static.claro.com.pe/landings/attach/tarjetaohh//css/style.css">
+<link rel="stylesheet" type="text/css" href="http://ed8b75d4-us-south.lb.appdomain.cloud/assets/css/bootstrap_ibm.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.0/jquery.validate.min.js"></script>
+
+
+<div class="custom-model-main">
+  <div class="custom-model-inner">
+    <div class="close-btn">×</div>
+    <div class="custom-model-wrap">
+      <div class="pop-up-content-wrap">
+        <p class="title-popup"><strong>Tratamiento de mis datos personales</strong></p>
+        <p>Autorizo a AMERICA MOVIL PERU S.A.C. con domicilio en Av. Nicolás Arriola N° 480, Santa Catalina, La
+          Victoria, provincia y departamento de Lima (CLARO), para tratar mis datos personales y registrarlos en el
+          Banco de Datos Personales “Clientes” de su titularidad, con la finalidad de llamarme o enviarme mensajes de
+          texto (SMS), mensajes electrónicos y/o correos electrónicos con contenido informativo, publicitario y/o
+          promocional sobre cualquier producto y/o servicio de CLARO a cualquiera de las líneas telefónicas y/o correos
+          electrónicos de mi titularidad y/o que haya proporcionado a CLARO. Declaro conocer que (i) mis datos serán
+          registrados por el tiempo necesario para cumplir con la finalidad expuesta, o hasta que decida revocar mi
+          autorización, (ii) CLARO podrá compartir su información con terceros encargados del tratamiento de sus datos
+          personales, (iii) mi autorización resulta facultativa, pero en caso de negativa, la finalidad expuesta no
+          podrá realizarse, (iv) podré ejercer los derechos ARCO (Acceso, Rectificación, Cancelación y Oposición); en
+          los puntos de atención designados para tal efecto o a través del siguiente <a
+            href="https://www.claro.com.pe/legal-y-regulatorio/derechos-arco/" target="_blank">enlace</a>.</p>
+      </div>
+    </div>
+  </div>
+  <div class="bg-overlay"></div>
+</div>
+<div class="contenedor">
+  <div class="banner-principal" id="top"
+    style="background-image: url(https://static.claro.com.pe/img/otros/fondo-12-08-2021.png) !important;background-size: cover;">
+    <div class="container">
+      <div class="row">
+        <div class="col-6 col-12">
+          <div class="text">
+            <img src="https://static.claro.com.pe/img/otros/logo-bbva-12-08.png" alt="" id="logo-bbva">
+            <img src="https://static.claro.com.pe/img/otros/Web-bbva-15-09.png" alt="" id="imagen-desktop">
+            <img src="https://static.claro.com.pe/img/otros/Responsive-bbva-15-09.png" alt="" id="imagen-responsive">
+            <p>Entérate cómo disfrutar esta promoción en la sección "Términos y Condiciones"</p>
+          </div>
+
+        </div>
+        <div class="col-2">
+          <div class="img-ppal">
+            <img src="https://static.claro.com.pe/img/otros/2-bbva-13-09.png" alt="" id="imagen-desktop">
+            <img src="https://static.claro.com.pe/img/otros/2-bbva-res-13-09.png" alt="" id="imagen-responsive">
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="formulario-desktop">
+            <h2 style="font-weight: bold;">Ingresa tus datos y te llamaremos.</h2>
+            <form name="custom-fomulario"
+              action="https://svc-formulario-prd-public.k8s-tienda-virtual-d4fa2262c61265a03678a9a8bfbdc84a-0000.us-south.containers.appdomain.cloud/claro/form/add-formulario"
+              method="POST" data-ga="1816" data-plan="Lineas adicionales" novalidate="novalidate" id="formulario">
+              <input type="hidden" name="form_id" value="1816" autocomplete="off">
+              <input type="hidden" name="form_name" value="Full Claro" autocomplete="off">
+              <div class="col-12 input-effect">
+                <input class="effect-16" type="text" placeholder="" name="myname[0]" id="id_nombre" minlength="2"
+                  maxlength="50" required autocomplete="off">
+                <label>Nombres y apellidos</label>
+                <span class="focus-border"></span>
+              </div>
+              <div class="col-12 input-effect">
+                <input class="effect-16" type="number" name="myname[1]" placeholder="" id="id_dni" minlength="8"
+                  maxlength="8" required autocomplete="off"
+                  oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);">
+                <label>Número de documento de identidad</label>
+                <span class="focus-border"></span>
+              </div>
+              <div class="col-12 input-effect">
+                <input class="effect-16" type="number" name="myname[2]" placeholder="" id="id_tel_contacto"
+                  minlength="7" maxlength="9" required autocomplete="off"
+                  oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);">
+                <label>Número de celular</label>
+                <span class="focus-border"></span>
+              </div>
+              <div class="col-12 input-effect">
+                <input class="effect-16" type="email" name="myname[3]" placeholder="" id="id_mail" minlength="2"
+                  maxlength="150" required autocomplete="off"
+                  oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);">
+                <label>Correo electrónico</label>
+                <span class="focus-border"></span>
+              </div>
+              <div class="col-12 input-effect" id="id_operacion" required style="margin-top: 0px">
+                <select class="effect-16" name="myname[4]" required>
+                  <option value="" name="myname[4]">¿Eres cliente de Claro?</option>
+                  <option value="Si" name="myname[4]">Si</option>
+                  <option value="No" name="myname[4]">No</option>
+                </select>
+                <span class="focus-border"></span>
+              </div>
+              <div class="c-checkbox mt-3 checkbox">
+                <input type="checkbox" class="c-input checkbox-12" name="myname[6]" id="id_autorizo"
+                  value="Autorizo a Claro a llamarme o enviarme mensajes de contenido comercial.*" autocomplete="off"
+                  required>
+                <label for="mensaje2"></label>
+                <div class="modalTxtComercial formUnoCampo align-self-baseline c-label-color">
+                  Autorizo el 
+                  <a class="Click-here">Tratamiento de datos personales.</a>
+                </div>
+              </div>
+              <div class="c-checkbox mt-3 checkbox">
+                <input type="checkbox" class="c-input checkbox-1" name="myname[7]" id="id_autorizo_terminos"
+                  value="Autorizo a Claro a llamarme o enviarme mensajes de contenido comercial.*" autocomplete="off"
+                  required>
+                <label for="mensaje2"></label>
+                <div class="modalTxtComercial formUnoCampo align-self-baseline c-label-color">
+                  Acepto los términos y condiciones.
+                </div>
+              </div>
+              <div>
+                <button type="submit" class="submitSolicitar submit c-btn c-btn-medium c-bg-primary text-white bg-grey"
+                  autocomplete="off" data-form="custom-form2">Te llamamos</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="contenedor-formulario container formulario-responsive">
+    <div class="title-beneficios responsive-2-beneficios ">
+      <h2>Exclusivo con tu <b>tarjeta de crédito BBVA Visa o Mastercard.</b></h2>
+    </div>
+    <h2 style="font-weight: bold;">Ingresa tus datos y te llamaremos.</h2>
+    <form name="custom-fomulario"
+      action="https://svc-formulario-prd-public.k8s-tienda-virtual-d4fa2262c61265a03678a9a8bfbdc84a-0000.us-south.containers.appdomain.cloud/claro/form/add-formulario"
+      method="POST" data-ga="1816" data-plan="Lineas adicionales" novalidate="novalidate" id="formulario2">
+      <input type="hidden" name="form_id" value="1816" autocomplete="off">
+      <input type="hidden" name="form_name" value="Full Claro" autocomplete="off">
+      <div class="col-12 input-effect">
+        <input class="effect-16" type="text" placeholder="" name="myname[0]" id="id_nombre" minlength="2" maxlength="50"
+          required autocomplete="off">
+        <label>Nombres y apellidos</label>
+        <span class="focus-border"></span>
+      </div>
+      <div class="col-12 input-effect">
+        <input class="effect-16" type="number" name="myname[1]" placeholder="" id="id_dni" minlength="8" maxlength="8"
+          required autocomplete="off"
+          oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);">
+        <label>Número de documento de identidad</label>
+        <span class="focus-border"></span>
+      </div>
+      <div class="col-12 input-effect">
+        <input class="effect-16" type="number" name="myname[2]" placeholder="" id="id_tel_contacto" minlength="7"
+          maxlength="9" required autocomplete="off"
+          oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);">
+        <label>Número de celular</label>
+        <span class="focus-border"></span>
+      </div>
+      <div class="col-12 input-effect">
+        <input class="effect-16" type="email" name="myname[3]" placeholder="" id="id_mail" minlength="2" maxlength="150"
+          required autocomplete="off"
+          oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);">
+        <label>Correo electrónico</label>
+        <span class="focus-border"></span>
+      </div>
+      <div class="col-12 input-effect" id="id_operacion" required style="margin-top: 0px">
+        <select class="effect-16" name="myname[4]" required>
+          <option value="" name="myname[4]">¿Eres cliente de Claro?</option>
+          <option value="Si" name="myname[4]">Si</option>
+          <option value="No" name="myname[4]">No</option>
+        </select>
+        <span class="focus-border"></span>
+      </div>
+      <div class="c-checkbox mt-3 checkbox">
+        <input type="checkbox" class="c-input checkbox-12" name="myname[6]" id="id_autorizo"
+          value="Autorizo a Claro a llamarme o enviarme mensajes de contenido comercial.*" autocomplete="off" required
+          style="">
+        <label for="mensaje2"></label>
+        <div class="modalTxtComercial formUnoCampo align-self-baseline c-label-color">
+          Autorizo el 
+          <a class="Click-here">Tratamiento de datos personales.</a>
+        </div>
+      </div>
+
+      <div class="c-checkbox mt-3 checkbox">
+        <input type="checkbox" class="c-input checkbox-1" name="myname[7]" id="id_autorizo"
+          value="Autorizo a Claro a llamarme o enviarme mensajes de contenido comercial.*" autocomplete="off" required>
+        <label for="mensaje2"></label>
+        <div class="modalTxtComercial formUnoCampo align-self-baseline c-label-color">
+          Acepto los términos y condiciones.
+        </div>
+      </div>
+      <div>
+        <button type="submit" class="submitSolicitar submit c-btn c-btn-medium c-bg-primary text-white bg-grey"
+          autocomplete="off" data-form="custom-form2">Te llamamos</button>
+      </div>
+    </form>
+  </div>
+</div>
+
+<div class="content">
+  <div class="title-beneficios ">
+    <h2>Exclusivo con tu <b>tarjeta de crédito BBVA Visa o Mastercard.</b></h2>
+  </div>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-lg-12">
+      <div class="completar-formulario promocion-banbif">
+        <div class="row">
+          <div class="col-2 col-12">
+            <img src="https://static.claro.com.pe/img/otros/logo-ban.png" alt="" class="img-compl-form">
+          </div>
+          <div class="col-7 col-12">
+            <h2 class="titl-funcion">Promoción válida también en nuestros Centros de Atención Claro a nivel nacional.
+            </h2>
+            <h2 class="titl-form">Encuentra el más cercano a ti.</h2>
+          </div>
+          <div class="col-lg-3 col-12">
+            <a href="https://claro.com.pe/contactanos/" class="btn" target="_blank"
+              style="background: #ee122c !important;color: #fff !important;" data-event-category="landing - banbif"
+              data-event-action="click" data-event-label="encontrar tienda claro" data-tagged="true">Encontrar tienda
+              Claro</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="content" id="terminos">
+  <div class="tabs">
+    <h2>Términos y condiciones</h2>
+    <div class="tabs-content">
+      <div class="faq-container">
+        <div class="faq ">
+          <h3 class="faq-title">Sujeto a evaluación crediticia</h3>
+          <div class="faq-text">
+
+
+            <p>
+            <ul>
+              <li>Beneficio de cuotas sin intereses solo aplica a compras de equipos realizadas en Centros de Atención
+                al Cliente de CLARO de la promoción.</li>
+
+              <li>Válido desde el 01.04.23 hasta el 01.04.24 o agotar stock a nivel nacional.</li>
+
+              <li>Disponible en 55 Centros de Atención al Cliente de Claro (ver Anexo 1).</li>
+
+              <li>Los clientes que deseen realizar su pedido vía telefónica y reservar una cita en un Centro de
+                Atención al Cliente de Claro para evitar la cola, deben inscribirse en el siguiente formulario: <a
+                  href="https://ventas.tiendaclaro.pe/bbva">https://ventas.tiendaclaro.pe/bbva</a></li>
+
+              <li>No válido para compras en Tienda Virtual Claro, Cadenas ni Distribuidores. </li>
+
+              <li>No aplica para Delivery.</li>
+
+              <li>Válido para venta de accesorios y equipos móviles.</li>
+
+              <li>No aplica pago de servicios </li>
+
+              <li>Válido para tarjetas titulares y adicionales.</li>
+
+              <li>El titular de la tarjeta BBVA no necesariamente debe ser el titular de la línea Claro.
+              </li>
+
+              <li>Compra de equipo sujeto a evaluación crediticia. </li>
+
+              <li>Aplica con acuerdo de equipos de 18 meses al contado con Claro.</li>
+
+              <li>Aplica para portabilidad y renovación en planes de la oferta vigente de Claro desde Max 49.90.</li>
+
+              <li>Precio en portabilidad numérica aplica para líneas de Postpago a Postpago en operador cedente. </li>
+
+              <li>Aplica para renovación anticipada desde el mes 15 (clientes con acuerdo de equipos vigente a 18
+                meses); y desde el mes 10 (clientes con acuerdo de equipos vigente a 12 meses)</li>
+
+              <li>La línea debe contar con el servicio activo y/o sin ningún tipo de bloqueo. </li>
+
+              <li>Válido para clientes con DNI, CE, RUC 10 sin negocio y RUC 20.</li>
+
+              <li>No aplica a clientes corporativos. </li>
+
+              <li>Stock mínimo: 10 unidades por modelo.</li>
+
+              <li>Máximo: 5 equipos por cliente.</li>
+
+              <li>No aplica con otras promociones vigentes a excepción de la promoción de descuento por líneas
+                adicionales y 20% de descuento en portabilidad.</li>
+
+              <li>No aplica canje de Claro Puntos.</li>
+
+              <li>Promoción disponible para la compra de accesorios. </li>
+
+              <li>Los asesores deben seleccionar la campaña <strong>“2564 – PROM BBVA POST”</strong></li>
+
+              <li>El cliente podrá elegir pagar en 3, 6, 9, 12 y 18 cuotas.</li>
+
+              <li>El equipo debe pagarse en su totalidad con una tarjeta de crédito BBVA (Mastercard y Visa). Por
+                ejemplo: no puede pagarse la mitad del monto del equipo con efectivo y el saldo con tarjeta BBVA. </li>
+
+              <li>No aplica para tarjeta cuota fija, Tarjetas Empresariales (con excepción de la Tarjeta Capital de
+                Trabajo del BBVA). </li>
+
+              <li>No se manejará canje de puntos BBVA.  </li>
+
+              <li>Monto mínimo de compra es de S/. 500.</li>
+
+              <li>No válido para POS Poket, VendeMás o Mpos. </li>
+
+              <li>Participan todas las tarjetas de crédito del BBVA Visa o Mastercard, desde la básica hasta la infinite.</li>
+            </ul>
+
+
+
+            </p>
+
+
+          </div>
+          <button class="faq-toggle">
+            <i class="fas fa-chevron-down"></i>
+            <i class="fas fa-times"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</>
+<style type="text/css">
+  .banner-principal {
+    top: 0px;
+  }
+
+  img#imagen-desktop {
+    position: relative;
+    top: -40px;
+  }
+
+  .checkbox-1 {
+    float: left;
+    margin-left: -4px;
+  }
+
+  .text p {
+    color: #000;
+    text-align: left;
+    margin-bottom: 0px;
+    padding-top: 0px;
+    font-size: 11px;
+    line-height: 12px;
+    position: absolute;
+  }
+
+  .title-beneficios h2 {
+    margin-top: 0px;
+    font-weight: normal;
+    color: #072146;
+  }
+
+  #tarjeta-cencosud-blanca {
+    left: -3px;
+    top: 0%;
+  }
+
+  .cuotas p {
+    margin-bottom: -6px !important;
+  }
+
+  .text #logo-bbva {
+    position: relative;
+    top: -57px;
+    left: -44%;
+  }
+
+  .img-ppal {
+    top: 29%;
+    left: -111%;
+  }
+
+  #imagen-responsive {
+    display: none;
+  }
+
+  .promocion-banbif .img-compl-form {
+    width: 95px;
+    top: 10px;
+    left: 20%;
+  }
+
+  .c-checkbox.mt-3.checkbox {
+    margin-bottom: 0px;
+  }
+
+  .btn {
+    padding: 7px 9px 10px !important;
+    font-size: 16px !important;
+  }
+
+  .col-lg-12 {
+    -ms-flex: 0 0 100% !important;
+    flex: 0 0 100% !important;
+    max-width: 100% !important;
+  }
+
+  .col-2 {
+    -ms-flex: 0 0 16.666667% !important;
+    flex: 0 0 16.666667% !important;
+    max-width: 16.666667% !important;
+  }
+
+  .col-7 {
+    -ms-flex: 0 0 58.333333% !important;
+    flex: 0 0 58.333333% !important;
+    max-width: 58.333333% !important;
+  }
+
+  .col-lg-3 {
+    -ms-flex: 0 0 25% !important;
+    flex: 0 0 25% !important;
+    max-width: 25% !important;
+  }
+
+  label#id_dni-error {
+    top: 46px;
+  }
+
+  label#id_tel_contacto-error:before {
+    visibility: visible;
+  }
+
+  label#id_mail-error:before {
+    visibility: hidden;
+  }
+
+  label#myname\[6\]-error:before {
+    content: 'Campo requerido';
+    visibility: visible;
+  }
+
+  label#myname\[7\]-error:before {
+    content: 'Campo requerido';
+    visibility: visible;
+  }
+
+  label#myname\[6\]-error {
+    position: absolute;
+    top: 77%;
+    left: 73px;
+    font-size: 12px;
+    letter-spacing: inherit;
+    font-weight: 500;
+    visibility: hidden;
+  }
+
+  label#myname\[7\]-error {
+    position: absolute;
+    top: 82%;
+    left: 73px;
+    font-size: 12px;
+    letter-spacing: inherit;
+    font-weight: 500;
+    visibility: hidden;
+  }
+
+  @media (max-width: 480px) {
+
+    .col-12 {
+      -ms-flex: 0 0 100%;
+      flex: 0 0 100% !important;
+      max-width: 100% !important;
+      margin: auto;
+      float: left;
+      width: 100%;
+      position: relative;
+    }
+
+    .checkbox-1 {
+      position: relative;
+      top: 27px;
+    }
+
+    .promocion-banbif .img-compl-form {
+      width: 95px;
+      top: -105px;
+      left: 40%;
+    }
+
+    .completar-formulario {
+      padding-top: 0px;
+    }
+
+    .text {
+      max-width: 100%;
+      margin-top: 37px !important;
+    }
+
+    #imagen-desktop {
+      display: none;
+    }
+
+    .img-ppal img {
+      width: auto;
+      margin: auto;
+      text-align: center;
+    }
+
+    #imagen-responsive {
+      display: block;
+      margin: auto;
+    }
+
+    .title-beneficios {
+      display: none;
+    }
+
+    .text #logo-bbva {
+      position: relative;
+      top: -57px;
+      left: -29%;
+    }
+
+    .img-ppal {
+      top: 21%;
+      left: 22px;
+      display: block;
+    }
+
+    .banner-principal {
+      top: 0px;
+      height: 537px;
+    }
+
+    .tabs {
+      height: auto;
+    }
+
+    .title-beneficios.responsive-2-beneficios {
+      display: block;
+    }
+
+    .title-beneficios h2 {
+      font-size: 20px;
+    }
+
+    a {
+      line-height: 14px;
+    }
+
+    .text p {
+      color: #000;
+      text-align: left;
+      margin-bottom: 0px;
+      padding-top: 0px;
+      font-size: 11px;
+      line-height: 12px;
+      position: absolute;
+      top: 182%;
+      padding-left: 5%;
+    }
+
+    .title-beneficios {
+      margin-bottom: 5%;
+      width: 100%;
+      max-width: 600px;
+      margin-top: 20%;
+    }
+  }
+
+  @media (max-width: 375px) {
+    .checkbox-1 {
+      top: 27px !important;
+    }
+  }
+
+  @media (max-width: 414px) {
+    .checkbox-1 {
+      top: 2px;
+    }
+  }
+
+  @media (max-width: 320px) {
+    #imagen-responsive {
+      display: block;
+      margin: auto;
+      width: 100%;
+      max-width: 275px;
+    }
+
+    .img-ppal img#imagen-responsive {
+      width: 348px;
+    }
+
+    .banner-principal {
+      top: 0px;
+      height: 474px;
+    }
+  }
+</style>
+
